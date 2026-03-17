@@ -1,0 +1,8 @@
+torch>=1.10.0
+numpy
+transformers>=4.0.0
+datasets
+scikit-learn
+tqdm
+opacus>=1.0.0
+prv_accountant

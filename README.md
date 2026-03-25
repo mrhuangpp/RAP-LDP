@@ -45,17 +45,6 @@ python train_rap_ldp.py \
     --output_dir ./output/rap_ldp_sst2_eps8
 ```
 
-### 3. Run Baselines
-
-To run baselines like DP-Forward:
-
-```bash
-python train_baselines.py \
-    --method dp_forward \
-    --model_name_or_path bert-base-uncased \
-    --task_name sst2 \
-    --target_epsilon 8.0
-```
 
 ### 3. Privacy Attack Evaluation
 
@@ -76,7 +65,7 @@ If you use this code, please cite our paper:
 @article{huang2026rapldp,
   title={RAP-LDP: Reinforcement Adaptive Perturbation for Local Differential Privacy in Large Language Models},
   author={Huang, Jiawang and Wang, Ran and Chen, Aidong and Chen, Wenwen},
-  journal={IEEE Internet of Things Journal},
+  journal={Under Review},
   year={2026}
 }
 ```
